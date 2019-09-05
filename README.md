@@ -6,8 +6,11 @@ You can also download your files and set up folders to track Google Drive folder
 ## Commands
 ---
 - pwd
+    - Print the working directory
 - ls
+    - List the contents of the current working directory
 - cd
+    - Change into a new directory
 - sync up
     - Push changes in local folder to tracked folder in Google Drive
 - sync down
