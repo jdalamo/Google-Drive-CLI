@@ -1,0 +1,12 @@
+1. If you create a new directory within another new directory and name it the same thing
+   as a file in that same directory (including the file extension) and then upload it, it
+   might break.
+
+2. Not sure what happens if you try to create a drive folder in your google drive
+	i.e.: a folder that doesn't have a parent
+
+3. If you run sync_up, then delete all the contents of the google drive folder, then run it again
+   without restarting the application, it doesn't create the folders, it just uploads the files
+
+4. If you run sync_up, then delete one file within a subfolder, then run it again, it uploads that
+   file multiple times
