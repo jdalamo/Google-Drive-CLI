@@ -14,6 +14,12 @@ You can also download your files and set up folders to track Google Drive folder
     - Pull changes in tracked Google Drive folder to local folder
 - dl
     - Downloads specified file
+- tf view
+    - View tracked folders
+- tf add
+    - Add tracked folders
+- tf del
+    - Delete tracked folders
 - help
 
 ## Get it running
