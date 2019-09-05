@@ -20,8 +20,16 @@ You can also download your files and set up folders to track Google Drive folder
 ---
 1. Ensure you have Python 3 installed on your computer
 2. Clone the directory
-3. Run the following command:
+3. Go to https://developers.google.com/drive/api/v3/quickstart/python?authuser=1
+4. Click "Enable the Drive API"
+5. Click "Download Client Configuration" and copy the json file to Google-Drive-CLI/config
+6. Run the following commands in the cloned directory:
 ```
 > pip install -r requirements.txt
+> python3 main.py
 ```
-4. Optional: add the command to your path environment variable to make it runnable from anywhere
+7. In the browser window that opened, select the account you want to use
+8. Click "Advanced"
+9. Click "Go to Google Drive CLI" (yours may say "Quickstart")
+10. Click "Allow" twice
+11. The program should now be running in your terminal
