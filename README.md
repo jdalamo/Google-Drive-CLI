@@ -33,14 +33,20 @@ You can also download your files and set up folders to track Google Drive folder
 2. Clone the directory
 3. Go to https://developers.google.com/drive/api/v3/quickstart/python?authuser=1
 4. Click "Enable the Drive API"
-5. Click "Download Client Configuration" and copy the json file to Google-Drive-CLI/config
-6. Run the following commands in the cloned directory:
+5. Go to https://console.developers.google.com/apis/dashboard and click "Credentials" on the left side menu
+6. Click "Create Credentials" and then click "OAuth client ID"
+7. Select "Other", name it whatever you like, and click "Create"
+8. Click "Ok"
+9. Click the credential you just created
+10. Click "Download JSON"
+11. Copy the json file to Google-Drive-CLI/config and rename it "credentials.json"
+12. Run the following commands in the cloned directory:
 ```
 > pip install -r requirements.txt
 > python3 main.py
 ```
-7. In the browser window that opened, select the account you want to use
-8. Click "Advanced"
-9. Click "Go to Google Drive CLI" (yours may say "Quickstart")
-10. Click "Allow" twice
-11. The program should now be running in your terminal
+13. In the browser window that opened, select the account you want to use
+14. Click "Advanced"
+15. Click "Go to Google Drive CLI" (yours may say "Quickstart")
+16. Click "Allow" twice
+17. The program should now be running in your terminal
