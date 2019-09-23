@@ -5,17 +5,19 @@ import json
 from googleapiclient.discovery import build
 from google_auth_oauthlib.flow import InstalledAppFlow
 from google.auth.transport.requests import Request
+import getpass
 
+USERNAME = getpass.getuser()
 
 if platform == 'win32':
 	SLASH = '\\'
-	DEFAULT_DOWNLOAD = ''
+	DEFAULT_DOWNLOAD = '\\Users\\{}\\Downloads'.format(USERNAME)
 elif platform == 'darwin':
 	SLASH = '/'
-	DEFAULT_DOWNLOAD = ''
+	DEFAULT_DOWNLOAD = '/Users/{}/Downloads'.format(USERNAME)
 elif platform == 'linux':
 	SLASH = '/'
-	DEFAULT_DOWNLOAD = '/home/jd/Downloads'
+	DEFAULT_DOWNLOAD = '/home/{}/Downloads'.format(USERNAME)
 else:
 	SLASH = '/'
 	DEFAULT_DOWNLOAD = '/'
