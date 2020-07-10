@@ -43,7 +43,7 @@ You can also download your files and set up folders to track Google Drive folder
 12. Run the following commands in the cloned directory:
 ```
 > pip install -r requirements.txt
-> python main.py (may need to use 'python3 main.py' if you have multiple versions of python installed)
+> python cli.py (may need to use 'python3 cli.py' if you have multiple versions of python installed)
 ```
 13. In the browser window that opened, select the account you want to use
 14. Click "Advanced"
