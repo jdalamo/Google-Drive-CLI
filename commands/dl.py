@@ -10,5 +10,5 @@ def run(wd, params):
     try:
         cf.downloadFile(fileID, filePath)
     except Exception as err:
-        print("Can only download files, not folders.\nError message:")
+        print("Can only download files, not folders (Google Docs/Sheets files are treated as folders).\nError message:")
         print(err)

@@ -3,14 +3,10 @@
 - do i need my custom recursive function? i think so
 - figure out what nextPageToken does
 - might not need to pass empty list into .get() function call
-- figure out if i need both client_secret.json and credentials.json
 - look up how to pass arguments to it possibly
-- probably need to use long if-else to handle commands instead of
-  commandDict like i'm doing now
 - driveFiles/driveFolders not being updated, have to quit app and
   restart to take effect
 - look into upload types, i think rn i'm using quick
-
 - sync up: see if i still need the try catch clause on line 54
 - compare created dates when running sync commands to be able to push changes too
 - look over requirements.txt on mac and test which ones are necessary

@@ -61,7 +61,6 @@ def downloadFile(file_id, filepath):
 			fh.seek(0)
 			f.write(fh.read())
 
-
 def parseSpaceBackslashes(pieces):
 	parsedParams = ' '.join(pieces)
 	parsedParams = parsedParams.replace('\\', '')

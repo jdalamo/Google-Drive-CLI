@@ -19,6 +19,11 @@ def run():
 			for file in driveFiles:
 				if file.get_filePath() not in localFiles:
 					print("Downloading file {}".format(file.get_fileName()), end=': ')
-					cf.downloadFile(file.get_file_id(), file.get_filePath())
+					try:
+						cf.downloadFile(file.get_file_id(), file.get_filePath())
+					except Exception as err:
+						print("Can only download files, not folders (Google Docs/Sheets files are treated as folders).\nError message:")
+						print(err)
+
 
 	print()

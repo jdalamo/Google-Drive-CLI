@@ -22,7 +22,7 @@ else:
 	SLASH = '/'
 	DEFAULT_DOWNLOAD = '/'
 
-# These files treated as folders so for now they're unsupported
+# These files are treated as folders so for now they're unsupported
 EXCEPT_SET = {'numbers', 'pages', 'key'}
 
 if os.path.exists('tracked_folders.json'):
