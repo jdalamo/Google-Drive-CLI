@@ -1,7 +1,18 @@
 # A CLI for Google Drive written in Python
 
+## About
+---
+
 Use this program to navigate Google Drive from within your terminal using the same Bash commands you'd use natively.
 You can also download your files and set up folders to track Google Drive folders.
+
+## Stack
+---
+Python
+
+## Dependencies
+---
+- Google Drive API
 
 ## Commands
 ---
