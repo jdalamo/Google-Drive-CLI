@@ -59,4 +59,4 @@ Note: May need to use pip and python instead of pip3 and python3 if you don't ha
 11. Click "Go to Google Drive CLI" (yours may say "Quickstart")
 12. Click "Allow" twice
 13. The program should now be running in your terminal
-14. Going forward, you should just be able to run "python3 cli.py" to start the program, without having to go through the verification steps in the browser again
+14. Going forward, you should be able to run "python3 cli.py" to start the program, without having to go through the verification steps in the browser again
